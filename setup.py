@@ -35,7 +35,7 @@ if on_rtd:
     install_requires.extend(setup_requires)
 
 setup(
-    name='recbole',
+    name='recbole_da',
     version=
     '0.2.2',  # please remember to edit recbole/__init__.py in response, once updating the version
     description='A unified, comprehensive and efficient recommendation library',
@@ -46,7 +46,7 @@ setup(
     author_email='recbole@outlook.com',
     packages=[
         package for package in find_packages()
-        if package.startswith('recbole')
+        if package.startswith('recbole_da')
     ],
     include_package_data=True,
     install_requires=install_requires,
