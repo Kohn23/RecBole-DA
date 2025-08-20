@@ -1,1 +1,1 @@
-from recbole.sampler.sampler import Sampler, KGSampler, RepeatableSampler, SeqSampler
+from recbole_da.sampler.sampler import Sampler, KGSampler, RepeatableSampler, SeqSampler

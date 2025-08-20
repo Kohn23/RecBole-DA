@@ -24,7 +24,7 @@ import torch.nn as nn
 import torch.nn.functional as fn
 from torch.nn.init import normal_
 
-from recbole.utils import FeatureType
+from recbole_da.utils import FeatureType
 
 
 class MLPLayers(nn.Module):

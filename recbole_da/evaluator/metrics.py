@@ -19,7 +19,7 @@ import numpy as np
 from sklearn.metrics import auc as sk_auc
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
-from recbole.evaluator.utils import _binary_clf_curve
+from recbole_da.evaluator.utils import _binary_clf_curve
 
 #    TopK Metrics    #
 

@@ -18,9 +18,9 @@ Reference:
 import torch
 from torch import nn
 
-from recbole.model.abstract_recommender import SequentialRecommender
-from recbole.model.layers import TransformerEncoder
-from recbole.model.loss import BPRLoss
+from recbole_da.model.abstract_recommender import SequentialRecommender
+from recbole_da.model.layers import TransformerEncoder
+from recbole_da.model.loss import BPRLoss
 
 
 class DuoRec(SequentialRecommender):

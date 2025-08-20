@@ -19,10 +19,10 @@ import numpy as np
 import torch
 from scipy.sparse import coo_matrix
 
-from recbole.data.dataset import Dataset
-from recbole.data.utils import dlapi
-from recbole.utils import FeatureSource, FeatureType
-from recbole.utils.utils import set_color
+from recbole_da.data.dataset import Dataset
+from recbole_da.data.utils import dlapi
+from recbole_da.utils import FeatureSource, FeatureType
+from recbole_da.utils.utils import set_color
 
 
 class KnowledgeBasedDataset(Dataset):

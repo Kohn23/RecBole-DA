@@ -19,10 +19,10 @@ import yaml
 import torch
 from logging import getLogger
 
-from recbole.evaluator import group_metrics, individual_metrics
-from recbole.utils import get_model, Enum, EvaluatorType, ModelType, InputType, \
+from recbole_da.evaluator import group_metrics, individual_metrics
+from recbole_da.utils import get_model, Enum, EvaluatorType, ModelType, InputType, \
     general_arguments, training_arguments, evaluation_arguments, dataset_arguments
-from recbole.utils.utils import set_color
+from recbole_da.utils.utils import set_color
 
 
 class Config(object):

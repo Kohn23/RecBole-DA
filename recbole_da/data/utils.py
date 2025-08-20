@@ -17,11 +17,11 @@ import importlib
 import os
 import pickle
 
-from recbole.config import EvalSetting
-from recbole.data.dataloader import *
-from recbole.sampler import KGSampler, Sampler, RepeatableSampler
-from recbole.utils import ModelType, ensure_dir, get_local_time
-from recbole.utils.utils import set_color
+from recbole_da.config import EvalSetting
+from recbole_da.data.dataloader import *
+from recbole_da.sampler import KGSampler, Sampler, RepeatableSampler
+from recbole_da.utils import ModelType, ensure_dir, get_local_time
+from recbole_da.utils.utils import set_color
 
 
 def create_dataset(config):
@@ -357,7 +357,7 @@ class DLFriendlyAPI(object):
         Example:
             .. code:: python
 
-                from recbole.data.utils import dlapi
+                from recbole_da.data.utils import dlapi
 
                 @dlapi.set()
                 def dataset_meth():

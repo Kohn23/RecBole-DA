@@ -12,7 +12,7 @@ recbole.config.eval_setting
 ################################
 """
 
-from recbole.utils.utils import set_color
+from recbole_da.utils.utils import set_color
 
 
 class EvalSetting(object):

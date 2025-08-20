@@ -18,9 +18,9 @@ import numpy as np
 import torch
 import torch.nn as nn
 
-from recbole.model.layers import FMEmbedding, FMFirstOrderLinear
-from recbole.utils import ModelType, InputType, FeatureSource, FeatureType
-from recbole.utils.utils import set_color
+from recbole_da.model.layers import FMEmbedding, FMFirstOrderLinear
+from recbole_da.utils import ModelType, InputType, FeatureSource, FeatureType
+from recbole_da.utils.utils import set_color
 
 
 class AbstractRecommender(nn.Module):

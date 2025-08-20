@@ -14,10 +14,10 @@ recbole.data.dataloader.dien_dataloader
 
 import torch
 
-from recbole.data.dataloader.sequential_dataloader import SequentialDataLoader, SequentialNegSampleDataLoader, SequentialFullDataLoader
-from recbole.data.interaction import Interaction, cat_interactions
-from recbole.utils import DataLoaderType, FeatureSource, FeatureType, InputType
-from recbole.sampler import SeqSampler
+from recbole_da.data.dataloader.sequential_dataloader import SequentialDataLoader, SequentialNegSampleDataLoader, SequentialFullDataLoader
+from recbole_da.data.interaction import Interaction, cat_interactions
+from recbole_da.utils import DataLoaderType, FeatureSource, FeatureType, InputType
+from recbole_da.sampler import SeqSampler
 
 
 class DIENDataLoader(SequentialDataLoader):

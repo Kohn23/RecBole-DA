@@ -16,7 +16,7 @@ import copy
 
 import numpy as np
 
-from recbole.data.dataset import Dataset
+from recbole_da.data.dataset import Dataset
 
 
 class SequentialDataset(Dataset):

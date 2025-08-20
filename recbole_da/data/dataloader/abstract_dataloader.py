@@ -15,7 +15,7 @@ recbole.data.dataloader.abstract_dataloader
 import math
 from logging import getLogger
 
-from recbole.utils import InputType
+from recbole_da.utils import InputType
 
 
 class AbstractDataLoader(object):

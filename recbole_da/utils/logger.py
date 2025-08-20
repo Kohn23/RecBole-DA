@@ -17,7 +17,7 @@ import logging
 import os
 import colorlog
 
-from recbole.utils.utils import get_local_time, ensure_dir
+from recbole_da.utils.utils import get_local_time, ensure_dir
 from colorama import init
 
 log_colors_config = {

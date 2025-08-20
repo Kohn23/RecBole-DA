@@ -15,7 +15,7 @@ recbole.evaluator.proxy_evaluator
 
 from collections import ChainMap
 
-from recbole.evaluator.evaluators import metric_eval_bind, group_metrics, individual_metrics
+from recbole_da.evaluator.evaluators import metric_eval_bind, group_metrics, individual_metrics
 
 
 class ProxyEvaluator(object):

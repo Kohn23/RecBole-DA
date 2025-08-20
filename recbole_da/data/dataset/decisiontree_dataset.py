@@ -7,8 +7,8 @@ recbole.data.decisiontree_dataset
 ##########################
 """
 
-from recbole.data.dataset import Dataset
-from recbole.utils import FeatureType
+from recbole_da.data.dataset import Dataset
+from recbole_da.utils import FeatureType
 
 
 class DecisionTreeDataset(Dataset):

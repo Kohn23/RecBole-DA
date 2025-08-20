@@ -18,8 +18,8 @@ from collections import ChainMap
 import numpy as np
 import torch
 
-from recbole.evaluator.abstract_evaluator import GroupedEvaluator, IndividualEvaluator
-from recbole.evaluator.metrics import metrics_dict
+from recbole_da.evaluator.abstract_evaluator import GroupedEvaluator, IndividualEvaluator
+from recbole_da.evaluator.metrics import metrics_dict
 
 # These metrics are typical in topk recommendations
 topk_metrics = {metric.lower(): metric for metric in ['Hit', 'Recall', 'MRR', 'Precision', 'NDCG', 'MAP']}

@@ -13,7 +13,7 @@ from functools import partial
 
 import numpy as np
 
-from recbole.utils.utils import dict2str
+from recbole_da.utils.utils import dict2str
 
 
 def _recursiveFindNodes(root, node_type='switch'):

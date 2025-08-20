@@ -12,7 +12,7 @@ recbole.data.dataloader.decisiontree_dataloader
 ################################################
 """
 
-from recbole.data.dataloader.general_dataloader import GeneralDataLoader, GeneralNegSampleDataLoader, \
+from recbole_da.data.dataloader.general_dataloader import GeneralDataLoader, GeneralNegSampleDataLoader, \
     GeneralFullDataLoader
 
 

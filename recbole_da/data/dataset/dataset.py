@@ -24,10 +24,10 @@ import torch
 import torch.nn.utils.rnn as rnn_utils
 from scipy.sparse import coo_matrix
 
-from recbole.data.interaction import Interaction
-from recbole.data.utils import dlapi
-from recbole.utils import FeatureSource, FeatureType, get_local_time
-from recbole.utils.utils import set_color
+from recbole_da.data.interaction import Interaction
+from recbole_da.data.utils import dlapi
+from recbole_da.utils import FeatureSource, FeatureType, get_local_time
+from recbole_da.utils.utils import set_color
 
 
 class Dataset(object):

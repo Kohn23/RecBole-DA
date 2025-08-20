@@ -1,6 +1,6 @@
 import argparse
 
-from recbole.quick_start import run_recbole
+from recbole_da.quick_start import run_recbole
 
 
 if __name__ == '__main__':

@@ -12,9 +12,9 @@ recbole.data.dataloader.knowledge_dataloader
 ################################################
 """
 
-from recbole.data.dataloader import AbstractDataLoader, GeneralNegSampleDataLoader
-from recbole.data.interaction import Interaction
-from recbole.utils import InputType, KGDataLoaderState
+from recbole_da.data.dataloader import AbstractDataLoader, GeneralNegSampleDataLoader
+from recbole_da.data.interaction import Interaction
+from recbole_da.utils import InputType, KGDataLoaderState
 
 
 class KGDataLoader(AbstractDataLoader):

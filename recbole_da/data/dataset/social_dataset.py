@@ -14,10 +14,10 @@ recbole.data.social_dataset
 
 import os
 
-from recbole.data.dataset import Dataset
-from recbole.data.utils import dlapi
-from recbole.utils import FeatureSource
-from recbole.utils.utils import set_color
+from recbole_da.data.dataset import Dataset
+from recbole_da.data.utils import dlapi
+from recbole_da.utils import FeatureSource
+from recbole_da.utils.utils import set_color
 
 
 class SocialDataset(Dataset):

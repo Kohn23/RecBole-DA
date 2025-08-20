@@ -21,7 +21,7 @@ import random
 import numpy as np
 import torch
 
-from recbole.utils.enum_type import ModelType
+from recbole_da.utils.enum_type import ModelType
 
 
 def get_local_time():
